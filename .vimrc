@@ -286,7 +286,7 @@ highlight Pmenu ctermbg=238 ctermfg=220
 	set ttimeoutlen=1 " (Hopefully) removes the delay when hitting esc in insert mode
 	"set list
 	"set listchars=tab:┊\
-	set tabstop=4 " The default is 8 which is MASSIVE!!
+	set tabstop=2 " The default is 8 which is MASSIVE!!
 	set wildmenu " visually autocomplete the command menu
 	set lazyredraw " only redraw when needed
 	set ttyfast " sends more characters to the screen for fast terminal connections
@@ -294,7 +294,8 @@ highlight Pmenu ctermbg=238 ctermfg=220
 	set foldenable " enable folding
 	set foldlevelstart=10 " open most folds by default
 	set foldnestmax=10 " 10 nested folders max
-	set shiftwidth=4
+	set shiftwidth=2
+	set expandtab
 	set wrap linebreak nolist
 	set spell
 	set virtualedit=onemore
