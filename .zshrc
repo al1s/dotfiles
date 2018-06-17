@@ -78,6 +78,11 @@ source $ZSH/oh-my-zsh.sh
 #   export EDITOR='mvim'
 # fi
 
+# TMUX
+if which tmux >/dev/null 2>&1; then
+    #if not inside a tmux session, and if no session is started, start a new session
+    test -z "$TMUX" && (tmux attach || tmux new-session)
+fi
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
