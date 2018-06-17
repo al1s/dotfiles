@@ -1,0 +1,25 @@
+{
+    "workbench.colorTheme": "Atom One Light",
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "relative",
+    "prettier.eslintIntegration": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.historyExplorer.enabled": true,
+    "gitlens.gitExplorer.files.layout": "tree",
+    "window.zoomLevel": -1,
+    "editor.minimap.enabled": false
+}
