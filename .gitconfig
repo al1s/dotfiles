@@ -1,0 +1,7 @@
+[user]
+	email = alstof@gmail.com
+	name = alstof
+[push]
+	default = matching
+[alias]
+    tree = log --graph --decorate --pretty=oneline --abbrev-commit

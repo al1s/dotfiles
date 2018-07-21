@@ -126,7 +126,7 @@ fi
 #so as not to be disturbed by Ctrl-S ctrl-Q in terminals:
 stty -ixon
 
-alias config='/usr/bin/git --git-dir=/home/al1/.cfg/ --work-tree=/home/al1'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias ga='git add' #usage: ga .
 alias gst='git status'
 alias gdc='git diff --cached' #usage: gdca [FILE_NAME]
